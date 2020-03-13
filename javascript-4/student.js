@@ -47,7 +47,7 @@ let homeTown = me.homeTown
 let setColor = arr => {
     arr.splice(2, 1)
     for (let i = 0; i < arr.length; i++){
-        if([i] === 'blue'){
+        if(arr === 'blue'){
             arr[i] = '#4D4DFF';
         }
 

@@ -123,7 +123,14 @@ function bigOrSmall(arr){
 
 // 	return reversed
 // } 
-
+let arrayReverser = arr => {
+	let reversed = []
+	for(let i =  arr.length - 1; i >= 0; i--){
+				if(arr[i] === true)
+				reversed.push(arr)
+			}
+			return reversed
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. You will be using .map, .filter, .reduce and .forEach to manipulate the array in the following problems.

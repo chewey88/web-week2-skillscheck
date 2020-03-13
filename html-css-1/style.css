@@ -6,6 +6,8 @@
 body{
 height: 1000px;
 width: 1000px;
+display: flex;
+flex-direction: column;
 }
 
 header{
@@ -19,17 +21,16 @@ header{
     background-color: lightgray;
     height: 80px;
     width: 100%;
-    
+    font-size: 28px;
 }
 ul{
     display: flex;
-    flex-direction: row;
-    /* margin-inline-end: auto; */
-    /* justify-content: flex-end; */
-    justify-items: end;
-    float: right;
+    margin-inline-start: 80%;
+    width: 30vw;
+    justify-items: self-end;
+    justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
 }
 .black-section{
@@ -51,11 +52,12 @@ ul{
     width: 100%;
     display: flex;
     background-color: white;
-    justify-content: flex-start;
-    flex-direction: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
     /* justify-items: left; */
-    align-content: space-between;
+    align-content: flex-start;
     flex-wrap: wrap;
+    padding: 25px;
 
 }
 .box-1{
@@ -65,14 +67,50 @@ ul{
     /* height: 100px;
     width: 100px; */
     display: flex;
-    justify-content: space-evenly;
-    justify-items: left;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .box-2{
     height: 200px;  
     width: 400px;
     display: flex;
     background: orange;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
     /* height: 20%;
     width: 100px; */
+}
+.text-box{
+    display: flex;
+    height: 100px;
+    width: 350px;
+    justify-content: center;
+    align-content: center;
+    margin-right: 20px;
+    margin-bottom: 20x;
+    padding: 15px;
+}
+.llama{
+    display: flex;
+    height: 200px;
+    width: 350px;
+    justify-content: center;
+    align-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+footer{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background: slateblue;
 }
